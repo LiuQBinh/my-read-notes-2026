@@ -2,9 +2,9 @@
 
 ## Current State
 
-**Last Updated:** 2026-08-24 13:15
-**Session ID:** toc-vs-lenses
-**Active Feature:** feat-001 - Start reading notes
+**Last Updated:** 2026-08-24 14:15
+**Session ID:** full-reading-plan
+**Active Feature:** front-matter - Orientation (next up: ch01)
 
 ## Status
 
@@ -12,18 +12,19 @@
 
 - [x] Packed this PDF as `books/the-art-of-game-design/`
 - [x] First note: Table of Contents vs Table of Lenses (`notes.md`)
+- [x] Built the full reading plan in `feature_list.json`: 33 chapters + front-matter + synthesis, each with book pages and the Lenses (1-100) it introduces
 
 ### What's In Progress
 
-- [ ] feat-001 Start reading notes
-  - Details: `notes.md` started; still reading (Hello + Lens #1). Not done until more of the PDF is noted.
+- [ ] front-matter Orientation
+  - Details: two tables + Hello covered in `notes.md`; anchor at Lens #1. Next actionable feature is `ch01`.
   - Blockers: none
 
 ### What's Next
 
-1. Continue notes in `notes.md` (Chapter 1, or jump via Table of Lenses)
-2. After notes have a foothold, pick one AI technique for feat-002
-3. Re-run `./init.sh` before claiming a feature done
+1. Finish `front-matter` (confirm orientation), then start `ch01`
+2. For each chapter: agent produces comprehensive summary + lenses-as-questions + comprehension check; capture in `notes.md`
+3. Re-run `./init.sh` before claiming any feature done
 
 ## Blockers / Risks
 
@@ -48,4 +49,4 @@
 
 ## Notes for Next Session
 
-Read `notes.md` first. Active item is still feat-001. Index pointer: TOC vs Table of Lenses — see `notes.md`.
+Read `notes.md` first, then `feature_list.json` for the full chapter-by-chapter plan. Reading is sequential (each feature depends on the previous). Active item: `front-matter`; next chapter to read: `ch01`.
