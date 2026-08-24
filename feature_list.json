@@ -1,0 +1,14 @@
+{
+  "features": [
+    {
+      "id": "feat-001",
+      "name": "The Art of Game Design: A Book of Lenses",
+      "description": "Read this PDF using this feature folder's harness. Do not mix work with another PDF.",
+      "status": "in-progress",
+      "dependencies": [],
+      "evidence": "",
+      "pdf": "features/feat-001-the-art-of-game-design/3-the-art-of-game-design-a-book-of-lenses_3.pdf",
+      "harness": "features/feat-001-the-art-of-game-design"
+    }
+  ]
+}
