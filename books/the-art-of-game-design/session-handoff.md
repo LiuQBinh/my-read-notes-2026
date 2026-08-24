@@ -3,13 +3,14 @@
 ## Current Objective
 
 - Goal: Read *The Art of Game Design: A Book of Lenses* with AI support, using this book folder only.
-- Current status: book harness exists. Next: feat-001 start reading notes.
+- Current status: feat-001 in progress. First note is in `notes.md` (TOC vs Table of Lenses).
 - Branch / commit: `main`
 
 ## Completed This Session
 
 - [x] Created this PDF's book folder
 - [x] Reading work lives in `feature_list.json` (no nested feat-* folders)
+- [x] Saved first reading note: Table of Contents vs Table of Lenses
 
 ## Verification Evidence
 
@@ -20,11 +21,15 @@
 
 ## Files Changed
 
-- This book folder
+- `notes.md`
+- `feature_list.json`
+- `progress.md`
+- `session-handoff.md`
 
 ## Decisions Made
 
 - Work only on this PDF from this harness.
+- Persist reading notes in `notes.md`; keep `progress.md` for session continuity.
 
 ## Blockers / Risks
 
@@ -33,10 +38,10 @@
 ## Next Session Startup
 
 1. Read `AGENTS.md`.
-2. Read `feature_list.json` and `progress.md`.
+2. Read `feature_list.json`, `progress.md`, and `notes.md`.
 3. Review this handoff.
 4. Run `./init.sh` or the documented verification command before editing.
 
 ## Recommended Next Step
 
-- Start feat-001: notes for this PDF.
+- Continue feat-001: add notes for Chapter 1 (*In the Beginning, There Is the Designer*).

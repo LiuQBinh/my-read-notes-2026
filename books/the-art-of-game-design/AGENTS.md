@@ -8,7 +8,7 @@ Before writing code:
 
 1. **Confirm working directory** with `pwd` (this book folder)
 2. **Read this file** completely
-3. **Read project docs if present** (this folder's notes, plus repo `README.md`)
+3. **Read project docs if present** (`notes.md`, `progress.md`, `session-handoff.md`, plus repo `README.md`)
 4. **Run `./init.sh`** to verify environment is healthy
 5. **Read `feature_list.json`** to see current feature state
 6. **Review recent commits** with `git log --oneline -5`
@@ -26,6 +26,7 @@ If baseline verification is failing, repair that first before adding new scope.
 ## Required Artifacts
 
 - `feature_list.json` — Feature state tracker (source of truth for this book)
+- `notes.md` — Reading notes for this PDF (topic file; not session state)
 - `progress.md` — Session continuity log
 - `init.sh` — Standard startup and verification path
 - `session-handoff.md` — Optional, for larger sessions

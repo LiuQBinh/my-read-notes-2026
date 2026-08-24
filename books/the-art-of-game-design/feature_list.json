@@ -5,8 +5,8 @@
       "name": "Start reading notes",
       "description": "Begin notes for this PDF while reading with AI support",
       "dependencies": [],
-      "status": "not-started",
-      "evidence": ""
+      "status": "in-progress",
+      "evidence": "notes.md — TOC vs Table of Lenses (2026-08-24). Reading position: Hello + Lens #1 box."
     },
     {
       "id": "feat-002",

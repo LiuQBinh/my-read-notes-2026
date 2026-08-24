@@ -2,8 +2,8 @@
 
 ## Current State
 
-**Last Updated:** 2026-08-24 10:34
-**Session ID:** folder-by-book
+**Last Updated:** 2026-08-24 13:15
+**Session ID:** toc-vs-lenses
 **Active Feature:** feat-001 - The Art of Game Design: A Book of Lenses
 
 ## Status
@@ -17,13 +17,13 @@
 ### What's In Progress
 
 - [ ] feat-001 The Art of Game Design
-  - Details: book folder exists; reading notes not started
+  - Details: book folder exists; `notes.md` started (TOC vs Table of Lenses)
   - Blockers: none
 
 ### What's Next
 
-1. Open `books/the-art-of-game-design/AGENTS.md`
-2. Start that book's feat-001 (reading notes)
+1. Open `books/the-art-of-game-design/AGENTS.md` and `notes.md`
+2. Continue that book's feat-001 (reading notes)
 3. Re-run `./init.sh` before claiming a feature done
 
 ## Blockers / Risks
@@ -49,4 +49,4 @@
 
 ## Notes for Next Session
 
-Active book: `books/the-art-of-game-design/`. Add a new PDF by adding `books/<book>/` with `feature.json` and a harness. Do not hand-edit the root `feature_list.json`.
+Active book: `books/the-art-of-game-design/`. First note is in that folder's `notes.md`. Add a new PDF by adding `books/<book>/` with `feature.json` and a harness. Do not hand-edit the root `feature_list.json`.
