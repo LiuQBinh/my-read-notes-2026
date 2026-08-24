@@ -2,8 +2,8 @@
 
 ## Current State
 
-**Last Updated:** 2026-08-24 10:13
-**Session ID:** feature-by-folder
+**Last Updated:** 2026-08-24 10:34
+**Session ID:** folder-by-book
 **Active Feature:** feat-001 - The Art of Game Design: A Book of Lenses
 
 ## Status
@@ -12,18 +12,18 @@
 
 - [x] Vendored `.agent/skills/harness-creator`
 - [x] Workspace harness at repo root
-- [x] Feature-by-folder packaging: `features/feat-001-the-art-of-game-design/`
+- [x] Folder-by-book packaging: `books/the-art-of-game-design/`
 
 ### What's In Progress
 
 - [ ] feat-001 The Art of Game Design
-  - Details: feature folder exists; reading notes not started
+  - Details: book folder exists; reading notes not started
   - Blockers: none
 
 ### What's Next
 
-1. Open `features/feat-001-the-art-of-game-design/AGENTS.md`
-2. Start child folder `feat-001-start-reading-notes`
+1. Open `books/the-art-of-game-design/AGENTS.md`
+2. Start that book's feat-001 (reading notes)
 3. Re-run `./init.sh` before claiming a feature done
 
 ## Blockers / Risks
@@ -34,19 +34,19 @@
 
 - **Cursor + AGENTS.md**: Instruction file is `AGENTS.md`, not `CLAUDE.md`
 - **Skill vs harness**: Only the skill lives in `.agent/skills/`
-- **Feature by folder**: Each PDF is `features/feat-NNN-*/`. Child work is `feat-*/feature.json` inside that folder. `feature_list.json` is assembled.
+- **Folder by book**: Each PDF is `books/<book>/`. Reading work is that book's `feature_list.json`, not nested feat-* folders.
 
 ## Files Modified This Session
 
-- `features/feat-001-the-art-of-game-design/` — PDF + harness + child feature folders
-- `.agent/scripts/assemble-feature-list.py` — builds `feature_list.json` from folders
+- `books/the-art-of-game-design/` — PDF + harness
+- `.agent/scripts/assemble-feature-list.py` — builds the root catalog from book folders
 
 ## Evidence of Completion
 
 - [x] Tests pass: `./init.sh`
-- [x] Type check clean: assemble catalog + child feature lists
-- [x] Manual verification: each feature is a folder with `feature.json`
+- [x] Type check clean: assemble catalog + parse each book's `feature_list.json`
+- [x] Manual verification: one folder per book; no nested feat-* work folders
 
 ## Notes for Next Session
 
-Active feature folder: `features/feat-001-the-art-of-game-design/`. Add a new PDF by adding `features/feat-NNN-*/` with `feature.json` and a harness. Do not hand-edit `feature_list.json`.
+Active book: `books/the-art-of-game-design/`. Add a new PDF by adding `books/<book>/` with `feature.json` and a harness. Do not hand-edit the root `feature_list.json`.

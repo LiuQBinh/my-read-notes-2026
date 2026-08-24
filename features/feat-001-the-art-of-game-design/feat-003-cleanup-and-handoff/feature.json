@@ -1,8 +1,0 @@
-{
-  "id": "feat-003",
-  "name": "Cleanup and handoff",
-  "description": "Record verification evidence, update progress.md, and leave a clear next-session path for this PDF",
-  "status": "not-started",
-  "dependencies": ["feat-002"],
-  "evidence": ""
-}

@@ -2,28 +2,29 @@
 
 ## Current Objective
 
-- Goal: Read *The Art of Game Design: A Book of Lenses* with AI support, using this feature folder only.
-- Current status: packed as feature-by-folder. Next: start notes in `feat-001-start-reading-notes/`.
+- Goal: Read *The Art of Game Design: A Book of Lenses* with AI support, using this book folder only.
+- Current status: book harness exists. Next: feat-001 start reading notes.
 - Branch / commit: `main`
 
 ## Completed This Session
 
-- [x] Created this PDF's feature folder and child feature folders
+- [x] Created this PDF's book folder
+- [x] Reading work lives in `feature_list.json` (no nested feat-* folders)
 
 ## Verification Evidence
 
 | Check | Command | Result | Notes |
 |---|---|---|---|
 | PDF present | `test -f 3-the-art-of-game-design-a-book-of-lenses_3.pdf` | pass | `./init.sh` |
-| Assemble | `feat-*/feature.json` → `feature_list.json` | pass | 3 child features |
+| JSON parse | `python3` parse of `feature_list.json` | pass | reading work in this file |
 
 ## Files Changed
 
-- This feature folder
+- This book folder
 
 ## Decisions Made
 
-- Child work lives in `feat-*/` folders. Do not hand-edit `feature_list.json`.
+- Work only on this PDF from this harness.
 
 ## Blockers / Risks
 
@@ -38,4 +39,4 @@
 
 ## Recommended Next Step
 
-- Start notes in `feat-001-start-reading-notes/`.
+- Start feat-001: notes for this PDF.

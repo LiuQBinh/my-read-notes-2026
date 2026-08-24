@@ -1,8 +1,0 @@
-{
-  "id": "feat-002",
-  "name": "First AI reading experiment",
-  "description": "Try one concrete technique (RAG, ACE, or other) against this PDF and record what helped",
-  "status": "not-started",
-  "dependencies": ["feat-001"],
-  "evidence": ""
-}

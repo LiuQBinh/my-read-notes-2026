@@ -4,32 +4,25 @@
       "id": "feat-001",
       "name": "Start reading notes",
       "description": "Begin notes for this PDF while reading with AI support",
-      "status": "not-started",
       "dependencies": [],
-      "evidence": "",
-      "harness": "feat-001-start-reading-notes"
+      "status": "not-started",
+      "evidence": ""
     },
     {
       "id": "feat-002",
       "name": "First AI reading experiment",
       "description": "Try one concrete technique (RAG, ACE, or other) against this PDF and record what helped",
+      "dependencies": ["feat-001"],
       "status": "not-started",
-      "dependencies": [
-        "feat-001"
-      ],
-      "evidence": "",
-      "harness": "feat-002-first-ai-reading-experiment"
+      "evidence": ""
     },
     {
       "id": "feat-003",
       "name": "Cleanup and handoff",
       "description": "Record verification evidence, update progress.md, and leave a clear next-session path for this PDF",
+      "dependencies": ["feat-002"],
       "status": "not-started",
-      "dependencies": [
-        "feat-002"
-      ],
-      "evidence": "",
-      "harness": "feat-003-cleanup-and-handoff"
+      "evidence": ""
     }
   ]
 }

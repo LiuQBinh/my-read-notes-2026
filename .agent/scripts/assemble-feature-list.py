@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Assemble feature_list.json from feature-by-folder feature.json files."""
+"""Assemble the workspace catalog from one feature.json per book folder."""
 from __future__ import annotations
 
 import argparse
@@ -20,7 +20,7 @@ def die(message: str) -> None:
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--dir", default=".")
-    parser.add_argument("--glob", required=True, help="Relative glob from --dir, e.g. features/*/feature.json")
+    parser.add_argument("--glob", required=True, help="Relative glob from --dir, e.g. books/*/feature.json")
     parser.add_argument("--out", default="feature_list.json")
     args = parser.parse_args()
 

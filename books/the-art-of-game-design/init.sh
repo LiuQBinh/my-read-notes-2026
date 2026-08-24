@@ -1,7 +1,6 @@
 #!/bin/bash
 set -e
 cd "$(dirname "$0")"
-ROOT="$(cd ../.. && pwd)"
 
 echo "=== Harness Initialization ==="
 
@@ -14,14 +13,13 @@ test -f AGENTS.md
 echo "=== test -f feature.json ==="
 test -f feature.json
 
-echo "=== assemble and type-check / lint child feature folders ==="
-python3 "$ROOT/.agent/scripts/assemble-feature-list.py" --dir . --glob 'feat-*/feature.json'
-test -f feature_list.json
+echo "=== python3 JSON type-check / lint of feature_list.json ==="
+python3 -c 'import json; json.load(open("feature_list.json"))'
 
 echo "=== Verification Complete ==="
 echo ""
 echo "Next steps:"
-echo "1. Read feature_list.json (assembled from feat-*/feature.json)"
-echo "2. Pick ONE unfinished child feature folder"
+echo "1. Read feature_list.json to see current reading work"
+echo "2. Pick ONE unfinished feature"
 echo "3. Implement only that feature"
 echo "4. Re-run verification before claiming done"
