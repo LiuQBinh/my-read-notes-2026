@@ -23,6 +23,17 @@ If baseline verification is failing, repair that first before adding new scope.
 - **Stay in scope**: Don't modify files unrelated to the current feature. Do not start another book's harness from here.
 - **Leave clean state**: Next session must be able to run `./init.sh` immediately
 
+## Reading Mindset
+
+Confirmed with the user (2026-08-25). Do not re-ask unless they change it.
+
+- **Fidelity: structure + ideas, not 1:1 verbatim.** Follow the chapter's section order and keep every major claim, key example, and lens. Do not translate or transcribe sentence by sentence. Drop rhetorical flourish and secondary asides unless they carry a claim.
+- **Pipeline:** extract the full chapter from the PDF → write `notes.md` in English along that skeleton → deliver a Vietnamese chat summary of the *same* skeleton, plus a short comprehension check. Do not invent a parallel outline.
+- **Keep:** all major sections; quotes for central claims; the chapter's named examples (Wii Sports, Bubsy vs Sonic, Rico, *War*, etc.); every new Lens as a usable question list (near-verbatim); one explicit link back to earlier chapters.
+- **Density:** chat is the compressed pass (~20–30% of chapter length). `notes.md` is denser (~40–50% of the ideas) but still notes, not a translation.
+- **Done rule:** a chapter stays `in-progress` until the user confirms understanding. Then mark it done and start the next sequential feature.
+- **Languages:** file content in English. Chat in Vietnamese prose. Keep English only for proper names, Lens titles, and short book quotes — do not code-switch for process words (fidelity, pipeline, done, confirm, section, etc.).
+
 ## Required Artifacts
 
 - `feature_list.json` — Feature state tracker (source of truth for this book)

@@ -3,12 +3,15 @@
   "pdf": "3-the-art-of-game-design-a-book-of-lenses_3.pdf",
   "plan_type": "reading",
   "goal": "The user reads at a limited pace; the agent provides comprehensive reading support so the user understands each chapter fully before moving on.",
-  "reading_method": "For each chapter feature the agent delivers: (1) a comprehensive Vietnamese summary of the core argument, (2) key ideas with concrete examples, (3) the chapter's Lenses restated as usable question checklists, (4) links back to earlier chapters, and (5) a short comprehension check. A chapter is done only when the user confirms understanding and notes are captured in notes.md.",
+  "reading_method": "Extract the full chapter from the PDF. Map structure + ideas (not 1:1 verbatim): follow the book's section order; keep every major claim, key example, and lens; drop flourish. Write notes.md in English on that skeleton. In chat, deliver the same skeleton in Vietnamese: (1) core argument, (2) key ideas with the book's examples, (3) that chapter's Lenses as question checklists, (4) a link to earlier chapters, (5) a short comprehension check. A chapter stays in-progress until the user confirms understanding.",
   "conventions": {
     "pages": "Book page numbers (not PDF page numbers).",
     "lenses": "Lens numbers introduced in that chapter (100 total across the book).",
     "one_feature_at_a_time": true,
-    "sequential": "Each feature depends on the previous one; read in order."
+    "sequential": "Each feature depends on the previous one; read in order.",
+    "fidelity": "structure_and_ideas",
+    "notes_language": "en",
+    "chat_language": "vi"
   },
   "features": [
     {
@@ -52,8 +55,8 @@
       "lenses": [2, 3, 4, 5, 6],
       "description": "Defining 'game'; problem solving as the core. Lenses #2 Surprise, #3 Fun, #4 Curiosity, #5 Endogenous Value, #6 Problem Solving.",
       "dependencies": ["ch02"],
-      "status": "not-started",
-      "evidence": ""
+      "status": "done",
+      "evidence": "notes.md — Chapter 3: definitions; fun/play/game; Lenses #2–#6. User confirmed understanding after a second pass on the author's intent."
     },
     {
       "id": "ch04",
@@ -63,8 +66,8 @@
       "lenses": [7, 8],
       "description": "The Elemental Tetrad: mechanics, story, aesthetics, technology; skin vs skeleton. Lenses #7 Elemental Tetrad, #8 Holographic Design.",
       "dependencies": ["ch03"],
-      "status": "not-started",
-      "evidence": ""
+      "status": "done",
+      "evidence": "notes.md — Chapter 4: elemental tetrad; Space Invaders; skin vs skeleton; Lenses #7–#8. User confirmed understanding."
     },
     {
       "id": "ch05",
@@ -74,8 +77,8 @@
       "lenses": [9, 10],
       "description": "Unifying themes and resonance to make elements reinforce one meaning. Lenses #9 Unification, #10 Resonance.",
       "dependencies": ["ch04"],
-      "status": "not-started",
-      "evidence": ""
+      "status": "in-progress",
+      "evidence": "notes.md — Chapter 5: unifying vs resonant themes; Pirates / Titanic / Toontown; Lenses #9–#10. Awaiting user confirmation."
     },
     {
       "id": "ch06",
