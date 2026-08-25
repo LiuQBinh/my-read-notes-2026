@@ -1,0 +1,36 @@
+{
+  "book": "The Path of Purification (Visuddhimagga) — Bhadantācariya Buddhaghosa, trans. Bhikkhu Ñāṇamoli (1956; BPS 4th ed. 2010)",
+  "pdf": "the-path-of-purification.pdf",
+  "plan_type": "reading",
+  "goal": "Harness only for now. Confirm a reading method with the user before extracting chapters or writing notes.",
+  "reading_method": "TBD. Do not start chapter notes until the user confirms fidelity, languages, and pacing.",
+  "conventions": {
+    "pages": "Book page numbers (not PDF page numbers).",
+    "one_feature_at_a_time": true,
+    "sequential": "Each feature depends on the previous one; read in order.",
+    "notes_language": "en",
+    "chat_language": "vi"
+  },
+  "features": [
+    {
+      "id": "harness-setup",
+      "name": "Pack this PDF as a book folder",
+      "part": "0. Harness",
+      "pages": "",
+      "description": "Move the PDF into books/the-path-of-purification/ and add a book harness (AGENTS.md, feature.json, feature_list.json, init.sh, progress.md, session-handoff.md, notes.md).",
+      "dependencies": [],
+      "status": "done",
+      "evidence": "Folder books/the-path-of-purification/ exists with PDF + harness. Root ./init.sh and this book's ./init.sh pass."
+    },
+    {
+      "id": "confirm-reading-method",
+      "name": "Confirm reading method, then plan front matter",
+      "part": "0. Harness",
+      "pages": "",
+      "description": "Ask the user how to read this book (fidelity, density, chapter vs section chunks). Then replace this placeholder with a real reading plan starting at contents / translator preface / introduction. Do not invent a 23-chapter plan before that.",
+      "dependencies": ["harness-setup"],
+      "status": "not-started",
+      "evidence": ""
+    }
+  ]
+}

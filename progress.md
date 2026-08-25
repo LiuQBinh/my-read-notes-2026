@@ -2,9 +2,9 @@
 
 ## Current State
 
-**Last Updated:** 2026-08-24 13:15
-**Session ID:** toc-vs-lenses
-**Active Feature:** feat-001 - The Art of Game Design: A Book of Lenses
+**Last Updated:** 2026-08-25 11:02
+**Session ID:** add-visuddhimagga
+**Active Feature:** feat-001 still in-progress (Art of Game Design). feat-002 Visuddhimagga is todo (harness only).
 
 ## Status
 
@@ -13,6 +13,7 @@
 - [x] Vendored `.agent/skills/harness-creator`
 - [x] Workspace harness at repo root
 - [x] Folder-by-book packaging: `books/the-art-of-game-design/`
+- [x] Second book folder: `books/the-path-of-purification/` (harness only; not started reading)
 
 ### What's In Progress
 
@@ -38,8 +39,8 @@
 
 ## Files Modified This Session
 
-- `books/the-art-of-game-design/` — PDF + harness
-- `.agent/scripts/assemble-feature-list.py` — builds the root catalog from book folders
+- `books/the-path-of-purification/` — PDF + harness (new)
+- `feature_list.json` — assembled catalog now has 2 books
 
 ## Evidence of Completion
 
@@ -49,4 +50,4 @@
 
 ## Notes for Next Session
 
-Active book: `books/the-art-of-game-design/`. First note is in that folder's `notes.md`. Add a new PDF by adding `books/<book>/` with `feature.json` and a harness. Do not hand-edit the root `feature_list.json`.
+Two books: `books/the-art-of-game-design/` (in-progress, Ch 5) and `books/the-path-of-purification/` (todo, harness only). Do not hand-edit the root `feature_list.json`.
