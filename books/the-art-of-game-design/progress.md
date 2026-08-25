@@ -2,28 +2,29 @@
 
 ## Current State
 
-**Last Updated:** 2026-08-24 14:15
-**Session ID:** full-reading-plan
-**Active Feature:** front-matter - Orientation (next up: ch01)
+**Last Updated:** 2026-08-25 09:55
+**Session ID:** ch02-essential-experience
+**Active Feature:** ch02 - The Designer Creates an Experience
 
 ## Status
 
 ### What's Done
 
 - [x] Packed this PDF as `books/the-art-of-game-design/`
-- [x] First note: Table of Contents vs Table of Lenses (`notes.md`)
-- [x] Built the full reading plan in `feature_list.json`: 33 chapters + front-matter + synthesis, each with book pages and the Lenses (1-100) it introduces
+- [x] Front matter notes (TOC vs Table of Lenses, acknowledgments, Hello)
+- [x] Full reading plan in `feature_list.json`
+- [x] Chapter 1 notes (`notes.md`)
 
 ### What's In Progress
 
-- [ ] front-matter Orientation
-  - Details: two tables + Hello covered in `notes.md`; anchor at Lens #1. Next actionable feature is `ch01`.
+- [ ] ch02 The Designer Creates an Experience (pp. 9–22, Lens #1)
+  - Details: comprehensive notes captured in `notes.md`. Waiting for user to confirm understanding before marking done.
   - Blockers: none
 
 ### What's Next
 
-1. Finish `front-matter` (confirm orientation), then start `ch01`
-2. For each chapter: agent produces comprehensive summary + lenses-as-questions + comprehension check; capture in `notes.md`
+1. User confirms Ch 2 understanding (or asks follow-ups), then mark `ch02` done
+2. Start `ch03` (*The Experience Rises Out of a Game*, pp. 23–38, Lenses #2–#6)
 3. Re-run `./init.sh` before claiming any feature done
 
 ## Blockers / Risks
@@ -34,11 +35,12 @@
 
 - **Folder by book**: This folder is the book. Reading work stays in `feature_list.json` here, not extra subfolders.
 - **Notes file**: Reading notes live in `notes.md` (same folder, not a nested feat folder). `progress.md` is session state, not the notes.
+- **Ch 1 closed**: User asked to continue to Ch 2; Ch 1 notes were already complete.
 
 ## Files Modified This Session
 
-- `notes.md` — TOC vs Table of Lenses
-- `feature_list.json` — feat-001 in-progress
+- `notes.md` — Chapter 2 (game ≠ experience, introspection, Lens #1)
+- `feature_list.json` — front-matter + ch01 done; ch02 in-progress
 - `progress.md`, `session-handoff.md`
 
 ## Evidence of Completion
@@ -49,4 +51,4 @@
 
 ## Notes for Next Session
 
-Read `notes.md` first, then `feature_list.json` for the full chapter-by-chapter plan. Reading is sequential (each feature depends on the previous). Active item: `front-matter`; next chapter to read: `ch01`.
+Read `notes.md` first (Ch 2 ends at Lens #1). If the user has confirmed understanding, mark `ch02` done and start `ch03`.

@@ -19,8 +19,8 @@
       "lenses": [],
       "description": "Understand the difference between the Table of Contents (lecture path) and the Table of Lenses (toolbox of 100 perspectives), and Schell's reading advice in 'Hello'. Establishes how we will use lenses as question checklists throughout.",
       "dependencies": [],
-      "status": "in-progress",
-      "evidence": "notes.md — 'Front matter: two indexes, two jobs' (TOC vs Table of Lenses, Lens #1 example). Reading position anchored at Hello + Lens #1 box."
+      "status": "done",
+      "evidence": "notes.md — Front matter: two indexes, acknowledgments, Hello. User moved on to Ch 1–2."
     },
     {
       "id": "ch01",
@@ -30,8 +30,8 @@
       "lenses": [],
       "description": "What skills a game designer needs; why listening is the most important skill; the five kinds of listening (team, audience, game, client, self).",
       "dependencies": ["front-matter"],
-      "status": "not-started",
-      "evidence": ""
+      "status": "done",
+      "evidence": "notes.md — Chapter 1: identity, failure, listening, five targets, major vs minor gift. User confirmed by continuing to Ch 2."
     },
     {
       "id": "ch02",
@@ -41,8 +41,8 @@
       "lenses": [1],
       "description": "The game is not the experience; introspection (powers and perils); Essential Experience. Lens #1 Essential Experience.",
       "dependencies": ["ch01"],
-      "status": "not-started",
-      "evidence": ""
+      "status": "done",
+      "evidence": "notes.md — Chapter 2: game ≠ experience; introspection; Essential Experience; Lens #1. User confirmed understanding."
     },
     {
       "id": "ch03",

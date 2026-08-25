@@ -3,14 +3,14 @@
 ## Current Objective
 
 - Goal: Read *The Art of Game Design: A Book of Lenses* with AI support, using this book folder only. The user reads slowly and wants comprehensive understanding chapter by chapter.
-- Current status: full reading plan built. Active feature `front-matter`; next chapter `ch01`.
+- Current status: front-matter and Ch 1 done. Active feature `ch02`; notes written, awaiting user confirmation.
 - Branch / commit: `main`
 
 ## Completed This Session
 
-- [x] Extracted the book's real structure from the PDF: 33 chapters + 100 lenses, with book-page numbers
-- [x] Built the full reading plan in `feature_list.json`: one feature per chapter (front-matter → ch01…ch33 → synthesis), each tagged with pages and the lenses it introduces
-- [x] Recorded the reading method (summary + lenses-as-questions + comprehension check per chapter)
+- [x] Captured Chapter 2 notes in `notes.md` (game ≠ experience; three approaches; introspection perils; Heisenberg workarounds; Essential Experience; Lens #1)
+- [x] Closed `front-matter` and `ch01` after the user continued to Ch 2
+- [x] Set `ch02` to in-progress
 
 ## Verification Evidence
 
@@ -30,6 +30,7 @@
 
 - Work only on this PDF from this harness.
 - Persist reading notes in `notes.md`; keep `progress.md` for session continuity.
+- A chapter stays `in-progress` until the user confirms understanding.
 
 ## Blockers / Risks
 
@@ -44,4 +45,4 @@
 
 ## Recommended Next Step
 
-- Start `ch01` (*In the Beginning, There Is the Designer*, pp. 1-8): agent delivers a comprehensive summary + comprehension check, user reads along, notes captured in `notes.md`.
+- Confirm Ch 2, then start `ch03` (*The Experience Rises Out of a Game*, pp. 23–38): Lenses #2 Surprise, #3 Fun, #4 Curiosity, #5 Endogenous Value, #6 Problem Solving.
