@@ -77,8 +77,8 @@
       "lenses": [9, 10],
       "description": "Unifying themes and resonance to make elements reinforce one meaning. Lenses #9 Unification, #10 Resonance.",
       "dependencies": ["ch04"],
-      "status": "in-progress",
-      "evidence": "notes.md — Chapter 5: unifying vs resonant themes; Pirates / Titanic / Toontown; Lenses #9–#10. Awaiting user confirmation."
+      "status": "done",
+      "evidence": "notes.md — Chapter 5: unifying vs resonant themes; Pirates / Titanic / Toontown; Lenses #9–#10. User confirmed understanding."
     },
     {
       "id": "ch06",
@@ -88,8 +88,8 @@
       "lenses": [11, 12],
       "description": "Inspiration, stating the problem, and brainstorming tips. Lenses #11 Infinite Inspiration, #12 Problem Statement.",
       "dependencies": ["ch05"],
-      "status": "not-started",
-      "evidence": ""
+      "status": "in-progress",
+      "evidence": "notes.md — Chapter 6: inspiration; problem statement; subconscious; brainstorming tips; Lenses #11–#12. Awaiting user confirmation."
     },
     {
       "id": "ch07",

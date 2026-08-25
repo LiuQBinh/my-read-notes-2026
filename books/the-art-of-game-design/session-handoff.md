@@ -3,14 +3,14 @@
 ## Current Objective
 
 - Goal: Read *The Art of Game Design: A Book of Lenses* with AI support, using this book folder only.
-- Current status: front-matter through Ch 4 done. Active feature `ch05`; notes written, awaiting user confirmation.
+- Current status: front-matter through Ch 5 done. Active feature `ch06`; notes written, awaiting user confirmation.
 - Branch / commit: `main`
 
 ## Completed This Session
 
-- [x] Closed `ch04` after user confirmation
-- [x] Captured Chapter 5 notes (unifying vs resonant themes; Pirates, Titanic, Hercules, Toontown; Lenses #9–#10)
-- [x] Set `ch05` to in-progress
+- [x] Closed `ch05` after user confirmation ("ok, C6")
+- [x] Captured Chapter 6 notes (inspiration; problem statement; subconscious; 15 brainstorm tips; Lenses #11–#12)
+- [x] Set `ch06` to in-progress
 
 ## Verification Evidence
 
@@ -31,6 +31,7 @@
 - Work only on this PDF from this harness.
 - A chapter stays `in-progress` until the user confirms understanding.
 - Chat in Vietnamese prose. English only for proper names, Lens titles, and short quotes.
+- A short "ok" after a side question is not automatic chapter confirmation.
 
 ## Blockers / Risks
 
@@ -45,4 +46,4 @@
 
 ## Recommended Next Step
 
-- Confirm Ch 5, then start `ch06` (*The Game Begins with an Idea*, pp. 57–74): Lenses #11 Infinite Inspiration, #12 Problem Statement.
+- Confirm Ch 6, then start `ch07` (*The Game Improves Through Iteration*, pp. 75–96): Lenses #13 Eight Filters, #14 Risk Mitigation, #15 The Toy.

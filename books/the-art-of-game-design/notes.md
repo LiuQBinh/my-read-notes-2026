@@ -23,8 +23,8 @@ A lens is a named perspective plus a short question list. Example — Lens #1, E
 
 ## Reading position
 
-- Read: front matter through Hello; Chapters 1–5 (through p. 56), including Lenses #1–#10.
-- Next: Chapter 6 (*The Game Begins with an Idea*, pp. 57–74) — Lenses #11–#12.
+- Read: front matter through Hello; Chapters 1–6 (through p. 74), including Lenses #1–#12.
+- Next: Chapter 7 (*The Game Improves Through Iteration*, pp. 75–96) — Lenses #13–#15.
 
 ## Front matter: acknowledgments
 
@@ -584,3 +584,89 @@ Next: the rest of the design process (idea, iteration).
 **Link back:** Lens #1 named the essential experience. Lens #7 named four ingredients. Chapter 5 says the ingredients only get loud when they serve one theme; they get *deep* when that theme already lives in the player.
 
 Takeaway: First name what the game is about. Then everything either reinforces it or leaves. "Pirates" is a topic. "The fantasy of being a pirate" is a theme. If the theme also touches a buried desire or a personal truth, do not waste it.
+
+## Chapter 6 — The Game Begins with an Idea
+
+`Chapter 6` (pp. 57–74) opens Part III: idea → iteration. The "amateur" method *is* the real method: (1) think of an idea, (2) try it, (3) keep changing and testing until it is good enough. This chapter and the next are about *how* to do those steps well.
+
+### Inspiration
+
+- Schell's juggling-festival story: an old man whose tricks looked unique. Others could copy the moves but not the *inspiration*. Source: ballet, geese taking off a lake, a paper-punch machine — not other jugglers.
+  - Quote: "Don't look to other jugglers for inspiration — look everywhere else."
+  - Quote: "These guys can copy my moves, but they can't copy my inspiration."
+
+### Lens #11: Infinite Inspiration
+
+Stop looking at your game and games like it. Look everywhere else.
+
+- What experience in my life would I want to share?
+- In what small way can I capture its essence and put it into my game?
+
+Works with Lens #1: Infinite Inspiration finds beautiful experiences; Essential Experience brings them into the game. Tetrad choices can share one inspiration or blend several. Concrete visions from real life give the experience power and uniqueness.
+
+### State the problem
+
+Design solves problems. Before brainstorming, write a **problem statement**: goal + constraints.
+
+Example: "How can I make a Web-based game that teenagers will really like?" → maybe broaden to "Web-based *experience*" if "game" was an over-constraint.
+
+Too broad → designs that miss the real goal. Too narrow (focused on a solution, not the problem) → clever solutions get cut off.
+
+Three advantages of a clear statement:
+
+1. Broader creative space — start at the problem, not a proposed solution.
+2. Clear measurement — how well does this idea solve the problem?
+3. Better communication — teammates often solve *different* problems without noticing.
+
+You may discover the "real" problem after exploring ideas — then restate it. Examine the statement through the tetrad: which elements are already locked, which are free?
+
+Examples: magnets board game (tech/mechanics locked); Hansel and Gretel videogame (story locked); surrealist-painting feel (aesthetics locked); improve Tetris (mechanics locked). No constraints at all? Invent some — pick a story or mechanic — so you *have* a problem statement.
+
+### Lens #12: Problem Statement
+
+Think of the game as the solution to a problem.
+
+- What problem(s) am I really trying to solve?
+- Have I assumed things that have nothing to do with its true purpose?
+- Is a game really the best solution? Why?
+- How will I tell when the problem is solved?
+
+### Your silent partner (the subconscious)
+
+- Really good ideas pop up from below consciousness. Dreams are proof of its power (Kekulé's benzene ring: a serpent seizing its own tail).
+- Useful to treat the subconscious as another person (Stephen King's basement muse): cannot / will not talk in words; communicates through imagery and emotion; impulsive; emotional; playful; irrational — sometimes useless, sometimes the missing perspective.
+- Harpo Marx as "patron saint": silent, impulsive, emotional, playful, irrational — yet crazy solutions save the day.
+
+Tips for the partnership:
+
+1. **Pay attention** — if you ignore it, it stops suggesting. Consider even "surfboards as bananas?" for a few seconds; respect trains it.
+2. **Record ideas** — memory is terrible; writing frees mental space. Voice recorder + later transcription.
+3. **Manage appetites judiciously** — obsession (hunger, heartbreak, hatred) blocks creative work. Fix basics (Maslow → Ch 9). Some appetites should be curbed, not fed.
+4. **Sleep** — sleep is for the mind; the subconscious is active in dreams. Dali's "slumber with a key" (micro-nap) as extreme prep.
+5. **Don't push too hard** — like a forgotten name that pops later. Give it a clear problem and leave it alone; looming slows it down.
+
+Find the techniques that work for *you*. Strange is fine if productive.
+
+### Fifteen brainstorming tips (compressed)
+
+1. Write solutions down — don't wait for one brilliant idea in your head.
+2. Write or type — whichever frees you (Schell prefers unlined paper: circles, arrows, sketches).
+3. Sketch — crude drawings trigger ideas text alone will not.
+4. Toys / clay — visual + tactile engagement; silly is the point.
+5. Change perspective — stand on the chair, bus, beach, toy store.
+6. Immerse — target audience at the mall; learn the tech; read similar stories; play related and unrelated games.
+7. Crack jokes — new angles; "He who derails, rerails."
+8. Spare no expense — paper/ink are nothing vs a million-dollar idea; dignity of materials helps; don't whine if stuck with less.
+9. Writing on the wall — whiteboard, index cards, giant Post-its / butcher paper you can roll and restart a year later.
+10. The space remembers — spatial memory beats list memory; leave ideas posted.
+11. Write everything — stupid ideas clear the pipe and sometimes seed genius (Pauling: best way to have a good idea is to have a lot of ideas).
+12. Number your lists — easier to discuss; numbers give odd dignity.
+13. Mix and match categories — separate tetrad lists (tech / mechanics / story / aesthetics), then combine. Invent extra categories as needed.
+14. Talk to yourself — saying ideas out loud makes them more real (cell phone trick in public).
+15. Find a partner — right partner accelerates; small groups (≤4); avoid hole-pokers and narrow tastes. Team brainstorm detail → Ch 23.
+
+Closing: a designer must generate dozens of ideas on any topic. Next chapter: narrow the list and do something useful with them (iteration).
+
+**Link back:** Chapters 1–5 said *what* you are making (experience from a problem, four elements under a theme). Chapter 6 says *how ideas arrive*: look outside games, name the real problem, listen to the silent partner, then brainstorm without censoring.
+
+Takeaway: Inspiration from life, not from rival games. Problem statement before solutions. Ideas come from below — listen, record, sleep, don't shove. Quantity first; Chapter 7 is where you cut.
