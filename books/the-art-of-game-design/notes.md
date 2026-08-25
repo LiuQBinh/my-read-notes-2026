@@ -87,3 +87,48 @@ Takeaway: before the book even starts teaching design, it quietly shows that goo
   - Note: The book is only a starting framework. Real understanding comes from building, playtesting, failing, and iterating.
 
 Takeaway: `Hello` defines the whole reading stance for this book. Read it neither as theory-only nor as recipe-only, but as a toolkit for making better design decisions through many perspectives and repeated practice.
+
+## Chapter 1 — In the Beginning, There Is the Designer
+
+`Chapter 1` is a short manifesto (pp. 1–8) on attitude and identity before any technique is taught.
+
+- The catch-22 of getting started dissolves the moment you claim the identity.
+  - Quote: "Just say these magic words: *I am a game designer.*"
+  - Note: Schell's point is behavioral — act like a designer, make design decisions, iterate. Identity follows action, not the other way around.
+  - Quote: "People become what they pretend to be."
+
+- Failure is not a detour; it is the road.
+  - Quote: "If you aren't dropping, you aren't learning. And if you aren't learning, you aren't a juggler."
+  - Quote: "You will fail many, many more times than you will succeed. But these failures are your only path to success."
+  - Note: Schell draws from his juggling background. Each dropped catch is data, not shame.
+
+- A game designer needs almost every skill imaginable.
+  - Quote: "In short, all of them."
+  - Note: The list spans ~17 domains: Animation, Anthropology, Architecture, Brainstorming, Business, Cinematography, Communication, Creative Writing, Economics, Engineering, History, Management, Mathematics, Music, Psychology, Public Speaking, Sound Design, Technical Writing, Visual Arts.
+  - Quote: "The more of these things you are comfortable working with, however imperfectly, the better off you will be."
+
+- But one skill is more important than all the others combined.
+  - Quote: "The most important skill for a game designer is listening."
+  - Note: Not creativity, not logic, not communication — listening. And not surface hearing, but deep, attentive observation of everything unsaid.
+  - Quote: "By listening, I don't mean merely hearing what is said. I mean a deeper listening, a thoughtful listening."
+  - Quote: "To listen with a silent heart, with a waiting, open soul. Without passion, without desire, without judgment, without rebuke." — Herman Hesse, *Siddhartha* (cited by Schell)
+
+- There are five targets a game designer must listen to (each covered in later chapters).
+
+  | Listen to | Covered in |
+  |---|---|
+  | **Team** | Ch 23–24 |
+  | **Audience** | Ch 8, 9, 21, 22, 30 |
+  | **Game** | Most chapters |
+  | **Client** | Ch 27–29 |
+  | **Self** | Ch 1, 6, 32 |
+
+- There are two kinds of gift; the lesser one is the one most people want.
+  - Quote: "The major gift is love of the work."
+  - Note: Minor gift = innate skill, comes easily, but does not guarantee great work. Major gift = love of the work, drives relentless practice, and eventually produces skill that looks like natural talent to outsiders.
+  - Quote: "They will think you have the minor gift, of course, but only you will know the secret source of your skill, which is the major gift: love of the work."
+
+- The only way to know if you have the major gift is to start.
+  - Quote: "Start down the path, and see if it makes your heart sing."
+
+Takeaway: Chapter 1 says nothing about mechanics, rules, or systems. It says: claim the identity, embrace failure, develop listening as a core discipline, and let love of the work carry you through. Everything else in the book builds on this foundation.
