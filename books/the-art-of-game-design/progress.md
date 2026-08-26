@@ -2,30 +2,26 @@
 
 ## Current State
 
-**Last Updated:** 2026-08-25 11:25
-**Session ID:** ch06-idea
-**Active Feature:** ch06 - The Game Begins with an Idea
+**Last Updated:** 2026-08-25 17:15
+**Session ID:** ch09-players-mind
+**Active Feature:** ch09 - The Experience Is in the Player's Mind
 
 ## Status
 
 ### What's Done
 
-- [x] Packed this PDF as `books/the-art-of-game-design/`
-- [x] Front matter notes
-- [x] Full reading plan in `feature_list.json`
-- [x] Chapters 1–5 notes (user confirmed)
-- [x] Reading Mindset saved in `AGENTS.md`
+- [x] Chapters 1–8 notes (user confirmed through Ch 8)
 
 ### What's In Progress
 
-- [ ] ch06 The Game Begins with an Idea (pp. 57–74, Lenses #11–#12)
+- [ ] ch09 The Experience Is in the Player's Mind (pp. 113–128, Lenses #18–#20)
   - Details: notes in `notes.md`. Waiting for user to confirm understanding.
   - Blockers: none
 
 ### What's Next
 
-1. User confirms Ch 6, then mark `ch06` done
-2. Start `ch07` (*The Game Improves Through Iteration*, pp. 75–96, Lenses #13–#15)
+1. User confirms Ch 9, then mark `ch09` done
+2. Start `ch10` (*Some Elements Are Game Mechanics*, pp. 129–170, Lenses #21–#29)
 3. Re-run `./init.sh` before claiming any feature done
 
 ## Blockers / Risks
@@ -34,23 +30,19 @@
 
 ## Decisions Made
 
-- **Folder by book**: This folder is the book. Reading work stays in `feature_list.json` here.
-- **Notes file**: Reading notes live in `notes.md`. `progress.md` is session state.
-- A chapter stays `in-progress` until the user confirms understanding.
-- **Reading fidelity:** structure + ideas. Chat in Vietnamese prose.
-- Do not treat a short "ok" after a side question as chapter confirmation — ask or wait for clear close of the active chapter.
+- Chat in Vietnamese prose; structure + ideas fidelity.
 
 ## Files Modified This Session
 
-- `notes.md` — Chapter 6
-- `feature_list.json` — ch05 done; ch06 in-progress
+- `notes.md` — Chapter 9
+- `feature_list.json` — ch08 done; ch09 in-progress
 - `progress.md`, `session-handoff.md`
 
 ## Evidence of Completion
 
-- [x] Tests pass: `./init.sh` (book folder)
-- [x] Type check clean: `python3` JSON parse of `feature_list.json`
+- [x] `./init.sh` (book folder)
+- [x] JSON parse of `feature_list.json`
 
 ## Notes for Next Session
 
-If the user has confirmed Ch 6, mark `ch06` done and start `ch07`.
+If the user has confirmed Ch 9, mark `ch09` done and start `ch10` (long chapter — six mechanics, nine lenses).

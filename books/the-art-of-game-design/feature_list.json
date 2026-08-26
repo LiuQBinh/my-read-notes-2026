@@ -88,8 +88,8 @@
       "lenses": [11, 12],
       "description": "Inspiration, stating the problem, and brainstorming tips. Lenses #11 Infinite Inspiration, #12 Problem Statement.",
       "dependencies": ["ch05"],
-      "status": "in-progress",
-      "evidence": "notes.md — Chapter 6: inspiration; problem statement; subconscious; brainstorming tips; Lenses #11–#12. Awaiting user confirmation."
+      "status": "done",
+      "evidence": "notes.md — Chapter 6: inspiration; problem statement; subconscious; brainstorming tips; Lenses #11–#12. User confirmed understanding."
     },
     {
       "id": "ch07",
@@ -99,8 +99,8 @@
       "lenses": [13, 14, 15],
       "description": "The Eight Filters, the Rule of the Loop, risk assessment and rapid prototyping. Lenses #13 Eight Filters, #14 Risk Mitigation, #15 The Toy.",
       "dependencies": ["ch06"],
-      "status": "not-started",
-      "evidence": ""
+      "status": "done",
+      "evidence": "notes.md — Chapter 7: eight filters; Rule of the Loop; risk/prototyping; Lens of the Toy; Lenses #13–#15. User confirmed understanding."
     },
     {
       "id": "ch08",
@@ -110,8 +110,8 @@
       "lenses": [16, 17],
       "description": "Knowing your audience: demographics and psychographics (player types). Lenses #16 The Player, #17 Pleasure.",
       "dependencies": ["ch07"],
-      "status": "not-started",
-      "evidence": ""
+      "status": "done",
+      "evidence": "notes.md — Chapter 8: audience; age/gender; LeBlanc/Bartle pleasures; Pirates family play; Lenses #16–#17. User confirmed understanding."
     },
     {
       "id": "ch09",
@@ -121,8 +121,8 @@
       "lenses": [18, 19, 20],
       "description": "Modeling, focus, empathy, imagination, motivation, judgment; flow. Lenses #18 Flow, #19 Needs, #20 Judgment.",
       "dependencies": ["ch08"],
-      "status": "not-started",
-      "evidence": ""
+      "status": "in-progress",
+      "evidence": "notes.md — Chapter 9: modeling; flow; empathy; imagination; Maslow; judgment; Lenses #18–#20. Awaiting user confirmation."
     },
     {
       "id": "ch10",

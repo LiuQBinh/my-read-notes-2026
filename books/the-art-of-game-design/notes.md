@@ -23,8 +23,8 @@ A lens is a named perspective plus a short question list. Example — Lens #1, E
 
 ## Reading position
 
-- Read: front matter through Hello; Chapters 1–6 (through p. 74), including Lenses #1–#12.
-- Next: Chapter 7 (*The Game Improves Through Iteration*, pp. 75–96) — Lenses #13–#15.
+- Read: front matter through Hello; Chapters 1–9 (through p. 128), including Lenses #1–#20.
+- Next: Chapter 10 (*Some Elements Are Game Mechanics*, pp. 129–170) — Lenses #21–#29.
 
 ## Front matter: acknowledgments
 
@@ -670,3 +670,312 @@ Closing: a designer must generate dozens of ideas on any topic. Next chapter: na
 **Link back:** Chapters 1–5 said *what* you are making (experience from a problem, four elements under a theme). Chapter 6 says *how ideas arrive*: look outside games, name the real problem, listen to the silent partner, then brainstorm without censoring.
 
 Takeaway: Inspiration from life, not from rival games. Problem statement before solutions. Ideas come from below — listen, record, sleep, don't shove. Quantity first; Chapter 7 is where you cut.
+
+## Chapter 7 — The Game Improves Through Iteration
+
+`Chapter 7` (pp. 75–96) is the second half of "think → try → change until good enough." Chapter 6 produced many ideas. This chapter: pick one, run it through filters, and loop as usefully and as fast as possible.
+
+### Choosing an idea
+
+- After brainstorming, designers stall in a haze hoping the "right idea" will appear.
+- Commitment changes how you think: flaws and benefits become visible (Steinbeck: "A plan is a real thing"; coin-flip moment).
+- Make snap decisions, then immediately think through consequences. If wrong: reverse. Ideas are paper cups, not fine china — cheap to make, discard when full of holes.
+- Sentimentality about decisions is unaffordable. Commit early; do not fall in love with the choice.
+
+### The eight filters
+
+A finished design must pass all eight. Fail one → change the design → run *all eight again* (a fix for one can break another). Design ≈ state problem + get an idea + get it through all eight.
+
+| # | Filter | Key question |
+|---|---|---|
+| 1 | Artistic impulse | Does this game feel right? |
+| 2 | Demographics | Will the intended audience like this enough? (→ Ch 8) |
+| 3 | Experience design | Is this a well-designed game? (many lenses) |
+| 4 | Innovation | Is this novel enough? |
+| 5 | Business and marketing | Will this game sell? (→ Ch 29) |
+| 6 | Engineering | Is it technically possible to build? (→ Ch 26) |
+| 7 | Social / community | Does it meet social/community goals? (→ Ch 21–22) |
+| 8 | Playtesting | Do playtesters enjoy it enough? (→ Ch 25; often most important) |
+
+Filters can change (e.g. new demographic) when constraints allow. Extra filters for special goals (educational: "Does it teach what it should?"). When picking a seed idea, ask which candidate has the best shot of surviving this gauntlet.
+
+### Lens #13: The Eight Filters
+
+You may call the design finished only when it passes all eight without needing a change. Ask the eight key questions above. Add more filters if the project needs them.
+
+### The Rule of the Loop
+
+- Quote: "The more times you test and improve your design, the better your game will be."
+- Not a lens — an absolute truth. No exceptions. Rationalizing ("this time we don't need to test") always costs you.
+- Simple games: build and loop freely. Complex videogames: each loop is expensive → fewer loops → more risk (fixed budget, unknown loop count).
+- Two questions for long loops:
+  1. How can I make every loop count?
+  2. How can I loop as fast as possible?
+
+### Short history of software engineering
+
+- **Waterfall** (1970s fashion): seven linear steps, no going uphill. Encouraged planning — otherwise nonsense; violates the Rule of the Loop. Royce's paper (often cited as waterfall's foundation) actually emphasized iteration and never used the word "waterfall."
+- **Boehm spiral** (1986): risk assessment + prototypes + looping.
+  1. Basic design → 2. Greatest risks → 3. Prototypes that mitigate → 4. Test → 5. More detailed design → 6. Back to 2.
+  - Every loop counts → assess and mitigate risks.
+  - Loop fast → many rough prototypes.
+
+### Risk assessment and prototyping — *Prisoners of Bubbleville*
+
+Parachuting-cat game brief (story / mechanics / cartoony / 3D multi-platform). Naive path: build for six months before first playable = one loop at ⅓ budget — disaster if not fun or engine fails.
+
+Risk list → mitigate early with small prototypes:
+
+| Risk | Mitigation |
+|---|---|
+| Bubble/vulture mechanic not fun | Abstract 2D geometric prototype in 1–2 weeks; tune before 3D |
+| Engine can't draw city + bubbles + vultures | Throwaway tech stress test *before* final art |
+| 30 houses too expensive | Build *one* house + one character; measure time; cut / reuse if needed |
+| Characters/story may not land | Art/storyboard "bulletin board" prototype; show target demo |
+| Publisher might re-theme to stunt movie | Not always a prototype — push for decision, or design for easy re-theme |
+
+Throwaway code that players never see is not waste if it stops you coding the wrong game forever.
+
+### Lens #14: Risk Mitigation
+
+Stop thinking only positively. Face what could go horribly wrong.
+
+- What could keep this game from being great?
+- How can we stop that from happening?
+
+Temptation: polish the parts you feel confident about. Resist — work the endangered parts first.
+
+### Eight tips for productive prototyping
+
+1. **Answer a question** — state it clearly or the prototype becomes a boondoggle.
+2. **Forget quality** — quick and dirty; polish hides problems and slows loops.
+3. **Don't get attached** — Brooks: "Plan to throw one away." Epps: "You must learn how to cut up your babies."
+4. **Prioritize** — biggest risks first; upstream prototypes that can invalidate others go first.
+5. **Parallelize** — tech / art / gameplay prototypes at once = more loops.
+6. **Doesn't have to be digital** — paper prototypes: Toontown combat as board game; cardboard Tetris; Doom on graph paper with metronome ticks.
+7. **Fast-loop engine** — late-binding / scripting so you change code while the game runs (clay, not bread). Low-level static + high-level dynamic is fine.
+8. **Build the toy first** — fun to play *with* before goals. *Lemmings*: world of creatures first, game later. *GTA*: living city as medium first; then Pac-Man maze (dots = people, yellow car = you, ghosts = cops).
+
+### Lens #15: The Toy
+
+Stop asking if it is fun to *play*; ask if it is fun to play *with*.
+
+- If my game had no goal, would it still be fun? If not, how change that?
+- When people see it, do they want to interact before they know what to do? If not, how change that?
+
+Two uses: improve an existing game's toy-qualities; or invent toys before you know the game (riskier on a schedule; powerful as a divining rod).
+
+### Closing the loop
+
+Informal: idea → try → change until good enough.
+
+Formal:
+
+1. State the problem
+2. Brainstorm solutions
+3. Choose one
+4. List risks
+5. Build prototypes to mitigate
+6. Test; if good enough, stop
+7. State new problems → back to 2
+
+Racing-game example: Loop 1 "new racing" → underwater subs → Loop 2 "racing subs that fly" → Loop 3 "flying dinos." Problems get more specific; ugly risks surface early (look, air/water balance, networking vs machine guns). Parallel prototypes = more design loops than the count of "rounds" suggests. Whole team informs design (tech + aesthetics), not a lone designer.
+
+### How much is enough?
+
+- One more loop always helps a little → work is never finished, only abandoned.
+- Accurate schedule at loop 1 is impossible — you do not yet know what you are building. Each loop clarifies estimates.
+- Mark Cerny's Method: pre-production until **two publishable levels** with all necessary features; then production (schedulable). Often ~30% of budget spent to reach that point → remaining ~70% to finish. Unavoidable: predictability arrives after spending a third.
+
+Next: who we make games for (the player).
+
+**Link back:** Chapter 6 made many ideas. Chapter 7 says pick, filter, and loop — every loop must kill a real risk, as fast as possible. The eight filters are what "good enough" means; the toy is what makes looping worthwhile.
+
+Takeaway: Commit fast, reverse without sentiment. A game is done only when it survives all eight filters. More useful loops beat hope. Prototype to answer questions and kill risks — dirty, parallel, paper if you can. Build the toy before the game.
+
+## Chapter 8 — The Game Is Made for a Player
+
+`Chapter 8` (pp. 97–112) opens Part IV: the player's mind. Chapter 7 was *how* to make. This chapter is *who* for.
+
+### Einstein’s violin
+
+- Einstein asked to lecture on relativity for mostly old ladies; he played the violin instead — a better experience for *that* audience.
+- Knowing the audience means knowing what they will and will not like, often better than they do. What people *think* they want ≠ what they will actually enjoy.
+- Deep listening again (Ch 1, Ch 5): thoughts, emotions, fears, desires — including secret ones the player is not conscious of.
+
+### Project yourself
+
+- Empathy: put yourself in their place. Walt Disney crouched while inspecting Disneyland so he could see the park at a child's eye height — and you must adopt the *mental* perspective too.
+- Easy to stay stuck as the high-and-mighty designer; vigilance required.
+- If you used to be in the audience: recover vivid childhood memories — people forget; designers cannot afford to.
+- If you never were: cultural anthropologist mode — spend time with them, observe, imagine being them. Practice expands who your games can include.
+
+### Demographics (age)
+
+Groups matter when designing for many. Age and gender are the two most significant variables for game designers. Industry age bands:
+
+| Age | Label | Play pattern |
+|---|---|---|
+| 0–3 | Infant/toddler | Toys; games usually too complex |
+| 4–6 | Preschooler | First game interest; with parents who bend rules |
+| 7–9 | Kids | "Age of reason"; reading, problem solving; own likes/dislikes |
+| 10–13 | Tween | Neurological growth; "age of obsession"; boys especially into games |
+| 13–18 | Teen | Gender interests diverge (boys: competition/mastery; girls: real-world issues/communication); both want new experiences |
+| 18–24 | Young adult | Less play than children but established tastes; time + money → big consumers |
+| 25–35 | Twenties/thirties | Peak family formation; mostly casual; hardcore still important (purchase + influence) |
+| 35–50 | Family maturation | Career/family; casual; buy expensive games; seek family play |
+| 50+ | Empty nesters | Time again; return to old games or try new; strong social play (golf, bridge, online multiplayer) |
+
+Younger bands separated by mental development; older by family transitions. All play connects to childhood → to design for an age, speak the language of *their* childhood games and themes.
+
+### Gender ("The Medium is the Misogynist?")
+
+- Males and females differ in interests, tastes, skills. Innate vs learned matters less than designing for the differences that exist.
+- Videogames mostly played by males. Aesthetic swaps alone (same mechanics, friendlier look) largely failed → deeper than surface.
+- Koster: core of play/winning = mastering abstract formal systems — generally enjoyed more by males. That does *not* mean games can only serve males: the core can support story, creativity, learning, socialization. Like an apple: enjoy the fruit even if you don't like the core.
+
+**Five things males often like:** mastery (even without purpose); competition; destruction; spatial puzzles; trial-and-error learning.
+
+**Five things females often like:** emotion; real-world connection (*Barbie Fashion Designer* >> *Barbie as Rapunzel*; *Sims*); nurturing (Toontown: heal *others only*, not yourself); dialog/verbal puzzles; learning by example (step-by-step tutorials).
+
+Also: males more single-task focus; females often stronger multitasking (*Sims*). Hasbro *Pox*: social wireless game — playground observation showed girls rarely play spontaneous large competitive groups (dispute resolution stresses relationships); designed for boys only.
+
+Early digital games stripped social/verbal/emotional/real-world, hard to learn, unlimited virtual destruction → male skew. As tech supports emotion, richer story, and play-with-talk against real people, female audience grows.
+
+### Lens #16: The Player
+
+Stop thinking about your game; think about your player.
+
+- What do they like / dislike, and why?
+- What do they expect in a game?
+- If I were them, what would I want?
+- What would they like or dislike about *my* game?
+
+Designer as advocate for the player. Hold with Lens #8 (holographic): player + experience + mechanics at once. Observing them play beats imagining.
+
+### Worked example: Pirates (DisneyQuest)
+
+Audience = theme-park everybody, especially families playing together.
+
+- **Boys:** adventure/battle; offensive — seek and destroy; task-focused.
+- **Girls:** more defensive (protect ship); treasure mattered → pile it visibly; skeletons steal treasure so shooting serves protection; more social huddles and warnings. Balance invaders *and* chaseable enemies.
+- **Men:** "tall boys with credit cards" — same likes, more reserved / optimizing.
+- **Women/moms:** often gravitated to the *back* → steered while family manned cannons. Mom's goal = family's fun → vested interest in good steering, pacing when overwhelmed, managing turns. Make steering easy for non-gamers. Kids: "Wow, Mom, you were really good at that!"
+
+Watch how each group *tries* to play; change the game to support those styles.
+
+### Psychographics
+
+Demographics = external (age, gender, income…). Psychographics = internal: what each group finds pleasurable. Lifestyle slices ("dog lover," "hardcore FPS") are easy. Deeper: pleasure preferences.
+
+**LeBlanc’s eight game pleasures:** Sensation · Fantasy · Narrative (dramatic unfolding, not only linear plot) · Challenge · Fellowship · Discovery · Expression · Submission (entering the magic circle).
+
+**Bartle’s four player types** (card suits as mnemonic):
+
+| Type | Suit | Primary pleasure |
+|---|---|---|
+| Achievers | ♦ | Challenge — act on the world |
+| Explorers | ♠ | Discovery — interact with the world |
+| Socializers | ♥ | Fellowship — interact with players |
+| Killers | ♣ | Compete/defeat (competition + destruction); Bartle also includes imposing help on others — act on players |
+
+Taxonomies have gaps. Extra pleasures Schell lists: anticipation; schadenfreude; gift giving; humor; possibility; pride/naches; purification (clear the level); surprise; thrill (fear − death); fiero (triumph over adversity); wonder. Keep lists as thumb rules; stay open to unclassified pleasures that might be your game's unique quality.
+
+### Lens #17: Pleasure
+
+- What pleasures does your game give? Can they improve?
+- What pleasures are missing? Why? Can they be added?
+
+A game's job is to give pleasure. Next: know players even better — inside the mind (Ch 9).
+
+**Link back:** Chapter 1 said listen to the audience. Chapter 5 said resonant themes live in the player. Chapter 7's demographic filter needs substance — Chapter 8 supplies age, gender, and pleasure maps, then demands you project yourself into the player.
+
+Takeaway: Know the player better than they know themselves. Project into their body and mind. Demographics and psychographics are tools, not cages. Support how each group actually plays. Design for pleasure — and leave room for pleasures not on any list.
+
+## Chapter 9 — The Experience Is in the Player's Mind
+
+`Chapter 9` (pp. 113–128) goes inside the skull. Experiences only happen in the brain — the most complex object we know, and mostly hidden from us.
+
+- Priming example: say/spell "boast" five times → "What do you put in a toaster?" → people say "toast," not "bread." The subconscious steers almost everything we say and do; we only notice when it slips.
+- Four mental abilities that make gameplay possible: **modeling, focus, imagination, empathy**. Then: secret priorities of the player's subconscious (needs, judgment).
+
+### Modeling
+
+- Minds do not deal with reality; they deal with simplified *models* of reality. Consciousness is the illusion that those models *are* reality.
+- Failures of the model show the illusion: optical tricks; "colors" as retina grouping of a smooth wavelength spectrum; bacteria/mites we ignore because we don't need them.
+- Charlie Brown: giant head, bump fingers, made of lines — feels like a person because he matches internal models (face-heavy storage; lines = pre-digested object boundaries). Comics soothe because the brain does less work.
+- Stage magic tears models apart; the gasp is the sound of that tear.
+- Games are like Charlie Brown: pre-digested rule models, easier than figuring out the real world's rules. Abstract strategy games = nearly bare models; RPGs coat the model with aesthetics so digesting it is pleasurable. Chess at West Point: practice on simpler models before the real world.
+  - Quote (link to Ch 2): understand and control how the illusion forms → experiences that feel as real, or more real, than reality.
+
+### Focus → Flow
+
+- Selective attention (cocktail party effect; dichotic ear studies): focus one stream, forget the other.
+- Sustained complete attention + enjoyment = **flow** (Csikszentmihalyi): "complete and energized focus… high level of enjoyment and fulfillment."
+
+Conditions for flow activities:
+
+- Clear goals
+- No distractions
+- Direct / immediate feedback
+- Continuously challenging (not too hard → anxiety; not too easy → boredom)
+
+**Flow channel:** narrow band between boredom and frustration. Tennis/Alex example: skill rises → need harder challenges; anxiety → need more skill. Flow at higher skill is more complex than early flow; you cannot stay at one level long — growth is built in.
+
+Videogames: leveling difficulty self-balances (skilled players race through easy levels). Few finish all; debate whether end-frustration is bad or makes mastery special.
+
+Better than a straight climb: **tense and release** cycles (harder enemies → better gun → easy stretch → harder again). Oscillation = excitement + relaxation + variety + anticipation.
+
+### Lens #18: Flow
+
+- Does my game have clear goals? Player's goals = intended goals?
+- Distractions that make them forget the goal? Reduce or tie in?
+- Steady not-too-easy / not-too-hard challenges as skills improve?
+- Skills improving at the rate I hoped?
+
+Hard to test in ten minutes; watch long sessions. Flow often looks quiet / withdrawn, not loud emotion. Catch the moment they *leave* the channel — fix that event next prototype. Also turn this lens on yourself as a designer.
+
+### Empathy
+
+- Project into another's place — think their thoughts, feel their feelings. Theater exercise: make eye contact with someone projecting an emotion → you take on the emotion involuntarily.
+- Dogs evolved richer faces than wolves to capture our empathy.
+- We empathize with models, not reality — photos, drawings, game characters work. Film flings empathy between characters.
+- Games go further: not only feel with a character — project your whole decision-making into them and *become* them (→ Ch 18). Empathy also as problem-solving tool.
+
+### Imagination
+
+- Not fantasy daydreams first — everyday imagination for communication and problem solving.
+- "The mailman stole my car" → you invent face, neighborhood, color, time, method, motive. New info ("toy car") rewrites the model.
+- Games need not show every detail; players fill gaps. Art = what to show vs what to leave.
+- Two functions: communication/storytelling partner; problem solving (what the imagination can and cannot solve).
+
+### Motivation — Maslow
+
+Hierarchy (bottom → top): Physiological → Safety → Belonging-Love → Self-Esteem (achievement, mastery, recognition) → Self-Actualization.
+
+Lower unmet needs dominate. Most game activities sit at self-esteem (level 4). Multiplayer often hits belonging (level 3) → stronger motivation. Games with community + creation tools hit 3 + 4 + 5.
+
+### Lens #19: Needs
+
+- On which Maslow levels does my game operate?
+- How fulfill more basic needs?
+- On current levels, how fulfill them better?
+
+Promise is not enough — must *deliver*. If the player expected self-esteem or friendship and didn't get it, they leave.
+
+### Judgment
+
+- Deep need to be judged — people hate *unfair* judgment, not judgment itself. We need to know how we stack up; if unhappy, we work until judged favorably.
+- Games excel as systems of objective judgment — a major appeal.
+
+### Lens #20: Judgment
+
+- What does your game judge about players?
+- How does it communicate that judgment?
+- Do they feel it is fair? Do they care? Does it make them want to improve?
+
+Closing: the mind is where all experiences happen. Use your own modeling, focus, empathy, and imagination to listen to the player's — self-listening as audience-listening (Ch 1).
+
+**Link back:** Chapter 2 said experience is imaginary but is all we know. Chapter 8 named pleasures and types. Chapter 9 explains the machinery: models, flow, empathy, imagination, needs, judgment.
+
+Takeaway: You design for a brain that lives in models, stays in flow between boredom and anxiety, fills gaps, feels with characters, climbs Maslow, and wants a fair score. Control that illusion and the game feels more real than life.
